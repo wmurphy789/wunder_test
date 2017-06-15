@@ -1,0 +1,65 @@
+<h2>Create Contest</h2>
+<div class="row">
+  <div class="col-sm-10">
+    <div class="ibox">
+      <div class="ibox-content">
+        <%= form_for @contest, html: {:class => 'form-horizontal ng-pristine ng-valid'}, remote: true do |f| %>
+            <div class="col-sm-10">
+              <div class="form-group">
+                <%= f.label :home_contestant, class: 'col-sm-2 control-label' %>
+                <div class="col-sm-10"><%= f.select :home_contestant, 
+                options_for_select(@pets.map { |e| [e["name"], e["name"]] }),
+                {}, { :class => 'col-sm-12' } %></div>
+                <%= f.hidden_field :home_strength, :value => @pets[0]["strength"] %>
+                <%= f.hidden_field :home_intelligence, :value => @pets[0]["intelligence"] %>
+              </div>
+              vs.
+              <div class="form-group">
+                <%= f.label :away_contestant, class: 'col-sm-2 control-label' %>
+                <div class="col-sm-10"><%= f.select :away_contestant, 
+                options_for_select(@pets.map { |e| [e["name"], e["name"]] }, selected_key = @pets[1]["name"]),
+                {}, { :class => 'col-sm-12' } %></div>
+                <%= f.hidden_field :away_strength, :value => @pets[1]["strength"] %>
+                <%= f.hidden_field :away_intelligence, :value => @pets[1]["intelligence"] %>
+              </div>
+            </div>
+
+            <div class="col-sm-10">
+              <div class="form-group">
+                <%= f.label 'Contest Type', class: 'col-sm-2 control-label' %>
+                <div class="col-sm-10"><%= f.select :contest_type_id, 
+                options_for_select(get_contests.map { |e| [e.name, e.id] }),
+                {}, { :class => 'col-sm-12' } %></div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div>
+                <div class="col-sm-4 col-sm-offset-2">
+                  <%= f.submit 'Battle!', class: 'btn btn-primary btn-sm' %>
+                  <%= link_to 'Back', contests_path , :class => 'btn btn-white btn-sm' %>
+                </div>
+              </div>
+            </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%= javascript_tag "pets = #{@pets.to_json.html_safe};" %>
+<script>
+
+  $('#contest_home_contestant').change(function(e) {
+    var index = $(this).prop('selectedIndex');
+    $('#contest_home_strength').val(pets[index]["strength"]);
+    $('#contest_home_intelligence').val(pets[index]["intelligence"]);
+  });
+
+  $('#contest_away_contestant').change(function(e) {
+    var index = $(this).prop('selectedIndex');
+    $('#contest_away_strength').val(pets[index]["strength"]);
+    $('#contest_away_intelligence').val(pets[index]["intelligence"]);
+  });
+
+</script>

@@ -1,0 +1,5 @@
+<% if @contest && @contest.errors.any? %>
+	toastr.error("<%= @contest.errors.full_messages.to_sentence  %>");
+<% else %>
+	window.location = "<%= escape_javascript(contests_path) %>";
+<% end %>

@@ -1,0 +1,118 @@
+44684:C 14 Jun 16:31:44.148 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf
+44684:M 14 Jun 16:31:44.150 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.2.1 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 44684
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+44684:M 14 Jun 16:31:44.154 # Server started, Redis version 3.2.1
+44684:M 14 Jun 16:31:44.154 * The server is now ready to accept connections on port 6379
+44684:M 14 Jun 16:36:45.043 * 100 changes in 300 seconds. Saving...
+44684:M 14 Jun 16:36:45.043 * Background saving started by pid 45004
+45004:C 14 Jun 16:36:45.046 * DB saved on disk
+44684:M 14 Jun 16:36:45.145 * Background saving terminated with success
+44684:M 14 Jun 16:41:46.056 * 100 changes in 300 seconds. Saving...
+44684:M 14 Jun 16:41:46.058 * Background saving started by pid 45285
+45285:C 14 Jun 16:41:46.059 * DB saved on disk
+44684:M 14 Jun 16:41:46.161 * Background saving terminated with success
+44684:M 14 Jun 16:46:47.022 * 100 changes in 300 seconds. Saving...
+44684:M 14 Jun 16:46:47.023 * Background saving started by pid 45587
+45587:C 14 Jun 16:46:47.025 * DB saved on disk
+44684:M 14 Jun 16:46:47.123 * Background saving terminated with success
+44684:M 14 Jun 16:51:48.103 * 100 changes in 300 seconds. Saving...
+44684:M 14 Jun 16:51:48.105 * Background saving started by pid 45999
+45999:C 14 Jun 16:51:48.106 * DB saved on disk
+44684:M 14 Jun 16:51:48.208 * Background saving terminated with success
+44684:M 14 Jun 16:56:49.041 * 100 changes in 300 seconds. Saving...
+44684:M 14 Jun 16:56:49.043 * Background saving started by pid 46283
+46283:C 14 Jun 16:56:49.046 * DB saved on disk
+44684:M 14 Jun 16:56:49.148 * Background saving terminated with success
+44684:M 14 Jun 17:01:50.029 * 100 changes in 300 seconds. Saving...
+44684:M 14 Jun 17:01:50.031 * Background saving started by pid 46620
+46620:C 14 Jun 17:01:50.034 * DB saved on disk
+44684:M 14 Jun 17:01:50.133 * Background saving terminated with success
+44684:M 14 Jun 17:06:51.034 * 100 changes in 300 seconds. Saving...
+44684:M 14 Jun 17:06:51.035 * Background saving started by pid 47280
+47280:C 14 Jun 17:06:51.037 * DB saved on disk
+44684:M 14 Jun 17:06:51.136 * Background saving terminated with success
+44684:M 14 Jun 17:11:52.092 * 100 changes in 300 seconds. Saving...
+44684:M 14 Jun 17:11:52.093 * Background saving started by pid 47564
+47564:C 14 Jun 17:11:52.095 * DB saved on disk
+44684:M 14 Jun 17:11:52.197 * Background saving terminated with success
+44684:M 14 Jun 17:16:53.095 * 100 changes in 300 seconds. Saving...
+44684:M 14 Jun 17:16:53.097 * Background saving started by pid 47852
+47852:C 14 Jun 17:16:53.098 * DB saved on disk
+44684:M 14 Jun 17:16:53.198 * Background saving terminated with success
+44684:M 14 Jun 17:21:54.000 * 100 changes in 300 seconds. Saving...
+44684:M 14 Jun 17:21:54.000 * Background saving started by pid 48132
+48132:C 14 Jun 17:21:54.002 * DB saved on disk
+44684:M 14 Jun 17:21:54.104 * Background saving terminated with success
+44684:M 14 Jun 17:26:55.067 * 100 changes in 300 seconds. Saving...
+44684:M 14 Jun 17:26:55.068 * Background saving started by pid 48409
+48409:C 14 Jun 17:26:55.069 * DB saved on disk
+44684:M 14 Jun 17:26:55.168 * Background saving terminated with success
+44684:M 14 Jun 17:31:56.025 * 100 changes in 300 seconds. Saving...
+44684:M 14 Jun 17:31:56.025 * Background saving started by pid 48687
+48687:C 14 Jun 17:31:56.027 * DB saved on disk
+44684:M 14 Jun 17:31:56.125 * Background saving terminated with success
+44684:M 14 Jun 17:36:57.045 * 100 changes in 300 seconds. Saving...
+44684:M 14 Jun 17:36:57.045 * Background saving started by pid 48963
+48963:C 14 Jun 17:36:57.047 * DB saved on disk
+44684:M 14 Jun 17:36:57.145 * Background saving terminated with success
+44684:M 14 Jun 17:41:58.068 * 100 changes in 300 seconds. Saving...
+44684:M 14 Jun 17:41:58.069 * Background saving started by pid 49237
+49237:C 14 Jun 17:41:58.070 * DB saved on disk
+44684:M 14 Jun 17:41:58.169 * Background saving terminated with success
+44684:M 14 Jun 17:46:59.012 * 100 changes in 300 seconds. Saving...
+44684:M 14 Jun 17:46:59.012 * Background saving started by pid 49525
+49525:C 14 Jun 17:46:59.014 * DB saved on disk
+44684:M 14 Jun 17:46:59.117 * Background saving terminated with success
+44684:M 14 Jun 17:52:00.012 * 100 changes in 300 seconds. Saving...
+44684:M 14 Jun 17:52:00.013 * Background saving started by pid 49804
+49804:C 14 Jun 17:52:00.016 * DB saved on disk
+44684:M 14 Jun 17:52:00.117 * Background saving terminated with success
+44684:M 14 Jun 17:57:01.001 * 100 changes in 300 seconds. Saving...
+44684:M 14 Jun 17:57:01.001 * Background saving started by pid 50084
+50084:C 14 Jun 17:57:01.003 * DB saved on disk
+44684:M 14 Jun 17:57:01.106 * Background saving terminated with success
+44684:M 14 Jun 18:02:02.071 * 100 changes in 300 seconds. Saving...
+44684:M 14 Jun 18:02:02.071 * Background saving started by pid 50382
+50382:C 14 Jun 18:02:02.073 * DB saved on disk
+44684:M 14 Jun 18:02:02.171 * Background saving terminated with success
+44684:M 14 Jun 18:07:03.096 * 100 changes in 300 seconds. Saving...
+44684:M 14 Jun 18:07:03.097 * Background saving started by pid 50669
+50669:C 14 Jun 18:07:03.098 * DB saved on disk
+44684:M 14 Jun 18:07:03.202 * Background saving terminated with success
+44684:M 14 Jun 18:12:04.083 * 100 changes in 300 seconds. Saving...
+44684:M 14 Jun 18:12:04.083 * Background saving started by pid 50947
+50947:C 14 Jun 18:12:04.085 * DB saved on disk
+44684:M 14 Jun 18:12:04.188 * Background saving terminated with success
+44684:M 14 Jun 18:17:05.072 * 100 changes in 300 seconds. Saving...
+44684:M 14 Jun 18:17:05.072 * Background saving started by pid 51231
+51231:C 14 Jun 18:17:05.074 * DB saved on disk
+44684:M 14 Jun 18:17:05.176 * Background saving terminated with success
+44684:M 14 Jun 18:22:06.020 * 100 changes in 300 seconds. Saving...
+44684:M 14 Jun 18:22:06.021 * Background saving started by pid 51530
+51530:C 14 Jun 18:22:06.023 * DB saved on disk
+44684:M 14 Jun 18:22:06.121 * Background saving terminated with success
+44684:M 14 Jun 18:27:07.012 * 100 changes in 300 seconds. Saving...
+44684:M 14 Jun 18:27:07.013 * Background saving started by pid 51807
+51807:C 14 Jun 18:27:07.015 * DB saved on disk
+44684:M 14 Jun 18:27:07.116 * Background saving terminated with success
+44684:M 14 Jun 18:32:08.087 * 100 changes in 300 seconds. Saving...
+44684:M 14 Jun 18:32:08.088 * Background saving started by pid 52151
+52151:C 14 Jun 18:32:08.090 * DB saved on disk
+44684:M 14 Jun 18:32:08.190 * Background saving terminated with success
